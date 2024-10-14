@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title>pengecekan membership restoran</title>
+    </head>
+    <script>
+        const costumers = {
+            "Lena": true,
+            "rio": false
+        };
+
+        function checkmembership(name) {
+            if (costumers[name]) {
+            console.log(name + " Mendapatkan diskon 5%");
+        } else {
+            console.log(name + " Tidak mendapatkan diskon");
+        }
+    }
+
+    window.onload = function() {
+        checkmembership("Lena");
+        checkmembership("rio");
+    };
+    </script>
+    </html>
