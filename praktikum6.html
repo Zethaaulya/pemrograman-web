@@ -3,14 +3,15 @@
     <head>
         <title>pengecekan membership restoran</title>
     </head>
+    <body>
     <script>
-        const costumers = {
+        const customers = {
             "Lena": true,
             "rio": false
         };
 
         function checkmembership(name) {
-            if (costumers[name]) {
+            if (customers[name]) {
             console.log(name + " Mendapatkan diskon 5%");
         } else {
             console.log(name + " Tidak mendapatkan diskon");
@@ -22,4 +23,5 @@
         checkmembership("rio");
     };
     </script>
+    </body>
     </html>
