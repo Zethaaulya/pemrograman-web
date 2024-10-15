@@ -6,7 +6,7 @@
     <title>Perhitungan Bonus Salon</title>
     <script>
         function hitungBonus() {
-            var totalKunjungan = parseInt(prompt("Sudah berapa kali berkunjung di Salon Zalia?"));
+            var totalKunjungan = parseInt(prompt("Sudah berapa kali berkunjung di Salon Zetha?"));
             var potonganKupon = totalKunjungan; // Ini seharusnya adalah total kunjungan
             var kunjunganGratis = Math.floor(potonganKupon / 10);
             var bonus = (kunjunganGratis > 0) ? "Ya" : "Tidak";
@@ -14,13 +14,13 @@
             alert(
                 "Total kunjungan: " + totalKunjungan + "\n" +
                 "Jumlah potongan kupon: " + potonganKupon + "\n" +
-                "Kunjungan gratis Salon Zalia: " + bonus
+                "Kunjungan gratis Salon Zetha: " + bonus
             );
         }
     </script>
 </head>
 <body onload="hitungBonus()">
-    <h1>Selamat Datang di Salon Zalia!</h1>
+    <h1>Selamat Datang di Salon Zetha!</h1>
     <p>Kunjungi kami dan dapatkan bonus!</p>
 </body>
 </html>
